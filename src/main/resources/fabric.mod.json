@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpbot",
+  "version": "${version}",
+  "name": "PvP Bot",
+  "description": "Practice bot for mace, elytra mace and spear mace combat. Customizable kits and levels.",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["dev.pvpbot.PvpBotMod"],
+    "client": ["dev.pvpbot.PvpBotClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
